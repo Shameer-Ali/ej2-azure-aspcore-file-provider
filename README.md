@@ -1,4 +1,4 @@
-# ej2-azure-aspcore-file-provider
+# Azure Cloud File System Provider for Essential JS2 File Manager
 
 This repository contains the ASP.NET Core Azure storage file system providers for the Essential JS 2 File Manager component.
 
