@@ -32,7 +32,7 @@ namespace EJ2FileManagerServices.Controllers
         {
             if (args.Path != "")
             {
-                var originalPath = "https://ej2syncfusionfilemanager.blob.core.windows.net/files/Files/";
+                string originalPath = "https://ej2syncfusionfilemanager.blob.core.windows.net/files/Files/";
                 string startPath = "https://ej2syncfusionfilemanager.blob.core.windows.net/files/";
                 originalPath = originalPath.Replace(startPath, "");
                 args.Path = (originalPath + args.Path).Replace("//", "/");
@@ -76,7 +76,7 @@ namespace EJ2FileManagerServices.Controllers
         {
             if (args.Path != "")
             {
-                var originalPath = "https://ej2filemanager.blob.core.windows.net/files/Files/";
+                string originalPath = "https://ej2filemanager.blob.core.windows.net/files/Files/";
                 string startPath = "https://ej2filemanager.blob.core.windows.net/files/";
                 originalPath = originalPath.Replace(startPath, "");
                 args.Path = (originalPath + args.Path).Replace("//", "/");
